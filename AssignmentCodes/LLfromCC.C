@@ -12,7 +12,7 @@ int main()
     printf("\nEnter samples of x(n):\n");
     for (i = 0; i < N; i++)
     {
-        printf("\Enter x(%d):",i);
+        printf("\nEnter x(%d):",i);
         scanf("%d", &x[i]);
     }
     printf("\nEnter number of samples in h:");
@@ -20,7 +20,7 @@ int main()
     printf("\nEnter samples of h(n):\n");
     for (i = 0; i < M; i++)
     {
-        printf("\Enter h(%d):",i);
+        printf("\nEnter h(%d):",i);
         scanf("%d", &h[i]);
     }
 
